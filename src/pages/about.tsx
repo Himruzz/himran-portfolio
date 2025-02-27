@@ -96,6 +96,24 @@ export default function About() {
                       </motion.div>
                     </div>
                   ))}
+                   {/* Artwork Button */}
+              <motion.div 
+                className="mt-8 text-center"
+                variants={itemVariants}
+              >
+                <motion.a
+                  href="https://himruzz.blogspot.com/?m=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-green-400 to-blue-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+                  whileHover={{ scale: 1.05 }}
+                >
+                  <span>View My Artwork</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </motion.a>
+              </motion.div>
                 </div>
               </motion.div>
             </motion.div>
@@ -128,6 +146,8 @@ export default function About() {
                   I am seeking opportunities to grow as a developer and creator, contributing my expertise to projects that bridge technology and creativity.
                 </p>
               </motion.div>
+
+             
 
               {/* Contact Section */}
               <motion.div 

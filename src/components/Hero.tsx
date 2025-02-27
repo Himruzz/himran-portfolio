@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
     setCanvasDimensions();
 
     const icons = [
-      "MongoDB", "Express", "React", "Node", "⚡", "⏄", "~", "⌂", "M", "E", "R", "N"
+      "MongoDB", "Arduino", "Express", "React", "Node", "⏄", "⚡", "🤖", "🖌️ 🎨✍️", " 💡", "✂️🎬", " 🖥️"," 🔌","🍃 🚀⚛️ 🟢","📸🎨","🎨💻"
     ];
 
     const particles = Array.from({ length: 50 }, () => ({
@@ -114,7 +114,7 @@ const Hero: React.FC = () => {
     <div className="relative w-full h-screen bg-gray-900 flex items-center overflow-hidden">
       <canvas ref={canvasRef} className="absolute inset-0 z-0" />
       <div className="container mx-auto px-6 z-10">
-        <p className="text-green-400 mb-2">hi! my name is</p>
+        <p className="text-green-400 mb-2">"Hello world! I'm </p>
         <h1 className="text-5xl md:text-6xl font-bold text-white mb-2">Himruzz</h1>
         <p className="text-xl text-white mb-6">
           I am <span id="animated-text" className="text-green-400"></span>
@@ -134,10 +134,10 @@ const Hero: React.FC = () => {
       </div>
       <div className="absolute left-6 bottom-20 flex flex-col space-y-3 text-white">
   <a href="https://www.instagram.com/himruzz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"><FaInstagram size={24} /></a>
-  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter size={24} /></a>
-  <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub size={24} /></a>
-  <a href="https://telegram.org" target="_blank" rel="noopener noreferrer"><FaTelegram size={24} /></a>
-  <a href="https://wa.me/YourPhoneNumberHere" target="_blank" rel="noopener noreferrer"><FaWhatsapp size={24} /></a>
+  <a href="https://x.com/himruzz" target="_blank" rel="noopener noreferrer"><FaTwitter size={24} /></a>
+  <a href="https://github.com/Himruzz" target="_blank" rel="noopener noreferrer"><FaGithub size={24} /></a>
+  <a href="https://t.me/himruzz" target="_blank" rel="noopener noreferrer"><FaTelegram size={24} /></a>
+  <a href="https://wa.me/+918848609372" target="_blank" rel="noopener noreferrer"><FaWhatsapp size={24} /></a>
 </div>
     </div>
   );

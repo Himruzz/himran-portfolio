@@ -6,8 +6,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Himran P.E - Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Himruzz-Portfolio</title>
+        <link rel="icon" href="/icon.svg" />
       </Head>
       <Component {...pageProps} />
     </>
